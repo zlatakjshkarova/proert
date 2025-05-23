@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    background-color: rgb(105, 100, 100);
+}
+
+.content {
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    list-style: none;
+
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+
+.inner-block {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-top: 21px;
+    column-gap: 1%;
+    flex-direction: column;
+}
+
+
+
+
+.myBtn4 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 250px;
+    padding: 19px, 11px;
+    border-radius: 19px 19px 19px;
+    background-color: chocolate;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    margin-left: 69%;
+
+}
+
+#del {
+    background-color: yellowgreen;
+    color: beige;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.del:hover {
+    background-color: #21cc49;
+}
+
+#cenle {
+    background-color: rgb(159, 180, 180);
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#cenle:hover {
+    background-color: rebeccapurple;
+}
+
+.model {
+    margin: 22%;
+}
