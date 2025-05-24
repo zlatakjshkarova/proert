@@ -11,6 +11,37 @@ body {
 
 }
 
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.table {
+    background-color: #21cc49;
+    padding: 24px, 23px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.td {
+    width: 400px;
+    height: 90px;
+
+    padding: 23px, 34px;
+
+}
+
+
+.tr {
+    padding: 23px;
+
+}
+
 .list {
     display: flex;
     justify-content: center;
@@ -26,7 +57,7 @@ body {
 
 
 .inner-block {
-
+    flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: end;
@@ -49,7 +80,7 @@ body {
     text-decoration: none;
     text-transform: none;
     color: black;
-    margin-left: 69%;
+    margin-left: 81%;
 
 }
 
